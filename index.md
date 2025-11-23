@@ -1,12 +1,9 @@
 ---
 layout: home
+title: My Blog
+description: Welcome to my blog powered by Jekyll and Architect theme!
 ---
 
-# {{ site.title }}
+# ようこそ
 
-{{ site.description }}
-
-{% for post in site.posts %}
-
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
-  {% endfor %}
+これは Jekyll と GitHub Pages で作成したブログです。

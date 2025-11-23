@@ -1,4 +1,5 @@
-title: "My Stylish Blog"
-description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
-theme: jekyll-theme-architect
-markdown: kramdown
+title: My Blog
+remote_theme: jekyll-theme-architect
+plugins:
+  - jekyll-remote-theme
+description: GitHub Pages + Jekyll + Architect Theme
