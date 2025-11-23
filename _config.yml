@@ -1,7 +1,8 @@
 title: "My Stylish Blog"
 description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
-theme: jekyll-theme-minimal
+theme: jekyll-theme-architect
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
