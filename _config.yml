@@ -1,8 +1,12 @@
+
+title: "My Stylish Blog"
+description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# ブログのタイトルや説明をここで設定
-# title: あなたのブログ名
-# description: あなたの説明
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/yukanamori" }
