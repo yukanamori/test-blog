@@ -1,23 +1,7 @@
 title: "My Stylish Blog"
 description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-sass:
-  style: compressed
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-include:
-  - assets/css/custom.css
-
-# HackerテーマはGitHub Pages公式テーマです
-# 詳細: https://github.com/pages-themes/hacker
