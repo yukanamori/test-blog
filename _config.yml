@@ -2,10 +2,10 @@
 
 title: "My Stylish Blog"
 description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# CaymanテーマはGitHub Pages公式テーマです
-# 詳細: https://github.com/pages-themes/cayman
+# HackerテーマはGitHub Pages公式テーマです
+# 詳細: https://github.com/pages-themes/hacker
