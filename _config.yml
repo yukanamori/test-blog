@@ -1,10 +1,23 @@
 title: "My Stylish Blog"
 description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
-remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-theme-hacker
+
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
   - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+include:
+  - assets/css/custom.css
 
 # HackerテーマはGitHub Pages公式テーマです
 # 詳細: https://github.com/pages-themes/hacker
