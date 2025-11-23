@@ -1,12 +1,11 @@
 
+
 title: "My Stylish Blog"
 description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-minima:
-  skin: dark
-  social_links:
-    - { platform: github, user_url: "https://github.com/yukanamori" }
+# CaymanテーマはGitHub Pages公式テーマです
+# 詳細: https://github.com/pages-themes/cayman
