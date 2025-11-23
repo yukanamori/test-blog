@@ -1,4 +1,8 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
-markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# ブログのタイトルや説明をここで設定
+# title: あなたのブログ名
+# description: あなたの説明
