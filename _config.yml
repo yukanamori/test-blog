@@ -1,6 +1,6 @@
 title: "My Stylish Blog"
 description: "Jekyll + GitHub Pages で作るシンプルで美しいブログ"
-theme: minima
+theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-feed
